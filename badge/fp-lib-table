@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name keyboard_parts)(type KiCad)(uri /home/franklin/Documents/badge/components/keyboard_parts.pretty-master)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri /home/franklin/Documents/badge/components/keebs.pretty-master)(options "")(descr ""))
+  (lib (name promicro_library)(type KiCad)(uri /home/franklin/Documents/badge/components/ProMicroKiCad-master/promicro_library)(options "")(descr ""))
+  (lib (name components)(type KiCad)(uri /home/franklin/Documents/badge/components)(options "")(descr ""))
+)
