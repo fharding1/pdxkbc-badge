@@ -158,7 +158,7 @@
   )
 
   (module components:rose (layer B.Cu) (tedit 0) (tstamp 5CD8C07F)
-    (at 130.175 53.975)
+    (at 130.81 55.245)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -920,7 +920,7 @@
   )
 
   (module components:pdxkbc (layer F.Cu) (tedit 0) (tstamp 5CD8B65F)
-    (at 130.81 25.4)
+    (at 130.81 26.035)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1022,7 +1022,7 @@
   (gr_arc (start 147.955 91.44) (end 149.86 91.44) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5CF5795D))
   (gr_line (start 147.955 20.32) (end 112.395 20.32) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 112.395 22.225) (end 112.395 20.32) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "@fharding0\n" (at 130.175 22.225) (layer B.Mask)
+  (gr_text "@fharding0\n" (at 130.175 22.86) (layer B.Mask)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
 
@@ -1073,7 +1073,7 @@
   (segment (start 139.631301 71.476299) (end 139.631301 87.063699) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 137.091301 59.860479) (end 137.091301 68.936299) (width 0.25) (layer F.Cu) (net 8))
 
-  (zone (net 26) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 26) (net_name GND) (layer F.Cu) (tstamp 5CD88507) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1258,7 +1258,7 @@
       )
     )
   )
-  (zone (net 26) (net_name GND) (layer B.Cu) (tstamp 5CD8BCF5) (hatch edge 0.508)
+  (zone (net 26) (net_name GND) (layer B.Cu) (tstamp 5CD88504) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
