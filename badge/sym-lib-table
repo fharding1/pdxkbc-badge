@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name keyboard_parts)(type Legacy)(uri /home/franklin/Documents/badge/components/kicad_lib_tmk-master/keyboard_parts.lib)(options "")(descr ""))
-  (lib (name promicro)(type Legacy)(uri /home/franklin/Documents/badge/components/ProMicroKiCad-master/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri /home/franklin/src/pdxkbc-badge/components/kicad_lib_tmk-master/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name sparkfun_boards)(type Legacy)(uri /home/franklin/src/pdxkbc-badge/components/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Boards.lib)(options "")(descr ""))
 )
