@@ -1016,7 +1016,7 @@
   (gr_text https://harding.coffee/2019/05/pdxkbc/ (at 128.524 88.392) (layer B.SilkS)
     (effects (font (size 0.9 0.9) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "rev v2.0" (at 147.955 88.9 270) (layer B.Mask)
+  (gr_text "rev v3.0" (at 147.955 88.9 270) (layer B.Mask)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_line (start 149.86 26.035) (end 149.86 22.225) (layer Edge.Cuts) (width 0.15))
