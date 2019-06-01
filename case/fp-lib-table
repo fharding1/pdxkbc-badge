@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name keyboard_parts)(type KiCad)(uri /home/franklin/src/pdxkbc-badge/components/keyboard_parts.pretty-master)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri /home/franklin/src/pdxkbc-badge/components/keebs.pretty-master)(options "")(descr ""))
+  (lib (name sparkfun_boards)(type KiCad)(uri /home/franklin/src/pdxkbc-badge/components/SparkFun-KiCad-Libraries-master/Footprints/Boards.pretty)(options "")(descr ""))
+  (lib (name components)(type KiCad)(uri /home/franklin/src/pdxkbc-badge/components)(options "")(descr ""))
+)

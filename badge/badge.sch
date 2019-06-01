@@ -26,10 +26,10 @@ F 3 "" H 1400 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K4
+L keyboard_parts:KEYSW K5
 U 1 1 5CD4EFCA
 P 2300 1550
-F 0 "K4" H 2300 1783 60  0000 C CNN
+F 0 "K5" H 2300 1783 60  0000 C CNN
 F 1 "KEYSW" H 2300 1450 60  0001 C CNN
 F 2 "keebs:Mx_Alps_100" H 2300 1550 60  0001 C CNN
 F 3 "" H 2300 1550 60  0000 C CNN
@@ -59,10 +59,10 @@ F 3 "~" H 1050 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D4
+L Device:D D5
 U 1 1 5CD4F1B8
 P 1950 1800
-F 0 "D4" V 1996 1721 50  0000 R CNN
+F 0 "D5" V 1996 1721 50  0000 R CNN
 F 1 "D" V 1905 1721 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 1950 1800 50  0001 C CNN
 F 3 "~" H 1950 1800 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "~" H 1950 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D3
+L Device:D D4
 U 1 1 5CD4F221
 P 1950 1300
-F 0 "D3" V 1996 1221 50  0000 R CNN
+F 0 "D4" V 1996 1221 50  0000 R CNN
 F 1 "D" V 1905 1221 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 1950 1300 50  0001 C CNN
 F 3 "~" H 1950 1300 50  0001 C CNN
@@ -160,16 +160,10 @@ F 3 "" H 4350 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 1250 4350 1250
-Text Label 4400 1650 0    50   ~ 0
-col0
-Text Label 4400 1750 0    50   ~ 0
+Text Label 3350 2050 2    50   ~ 0
 col1
-Text Label 4400 2250 0    50   ~ 0
+Text Label 4400 1850 0    50   ~ 0
 row0
-Wire Wire Line
-	4250 1750 4400 1750
-Wire Wire Line
-	4400 1650 4250 1650
 Wire Wire Line
 	4250 2250 4400 2250
 Wire Wire Line
@@ -178,7 +172,7 @@ Wire Wire Line
 	3100 1450 3350 1450
 Wire Wire Line
 	4400 1850 4250 1850
-Text Label 4400 1850 0    50   ~ 0
+Text Label 4400 2250 0    50   ~ 0
 row1
 $Comp
 L keyboard_parts:KEYSW K1
@@ -197,10 +191,10 @@ Wire Wire Line
 	1700 1100 1700 1550
 Connection ~ 1700 1100
 $Comp
-L keyboard_parts:KEYSW K3
+L keyboard_parts:KEYSW K4
 U 1 1 5CD4EF59
 P 2300 1100
-F 0 "K3" H 2300 1333 60  0000 C CNN
+F 0 "K4" H 2300 1333 60  0000 C CNN
 F 1 "KEYSW" H 2300 1000 60  0001 C CNN
 F 2 "keebs:Mx_Alps_100" H 2300 1100 60  0001 C CNN
 F 3 "" H 2300 1100 60  0000 C CNN
@@ -212,4 +206,75 @@ Wire Wire Line
 Wire Wire Line
 	2600 1100 2600 1550
 Connection ~ 2600 1100
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5CEA56E1
+P 1400 2000
+F 0 "K3" H 1400 2233 60  0000 C CNN
+F 1 "KEYSW" H 1400 1900 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 1400 2000 60  0001 C CNN
+F 3 "" H 1400 2000 60  0000 C CNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5CEA5D9A
+P 2300 2000
+F 0 "K6" H 2300 2233 60  0000 C CNN
+F 1 "KEYSW" H 2300 1900 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 2300 2000 60  0001 C CNN
+F 3 "" H 2300 2000 60  0000 C CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5CEA64D8
+P 1050 2250
+F 0 "D3" V 1096 2171 50  0000 R CNN
+F 1 "D" V 1005 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1050 2250 50  0001 C CNN
+F 3 "~" H 1050 2250 50  0001 C CNN
+	1    1050 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5CEA6B42
+P 1950 2250
+F 0 "D6" V 1996 2171 50  0000 R CNN
+F 1 "D" V 1905 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1950 2250 50  0001 C CNN
+F 3 "~" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1550 1700 2000
+Connection ~ 1700 1550
+Wire Wire Line
+	2600 1550 2600 2000
+Connection ~ 2600 1550
+Wire Wire Line
+	2000 2000 1950 2000
+Wire Wire Line
+	1950 2000 1950 2100
+Wire Wire Line
+	1100 2000 1050 2000
+Wire Wire Line
+	1050 2000 1050 2100
+Wire Wire Line
+	1950 2400 1050 2400
+Text Label 950  2400 2    50   ~ 0
+row2
+Text Label 4400 1550 0    50   ~ 0
+row2
+Wire Wire Line
+	4400 1550 4250 1550
+Wire Wire Line
+	950  2400 1050 2400
+Connection ~ 1050 2400
+Text Label 3350 1550 2    50   ~ 0
+col0
 $EndSCHEMATC
